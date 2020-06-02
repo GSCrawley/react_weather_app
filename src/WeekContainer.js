@@ -1,5 +1,5 @@
 import React from 'react';
-import apiConfig from './apiKeys';
+// import apiConfig from './apiKeys';
 
 class WeekContainer extends React.Component {
   state = {
@@ -9,7 +9,7 @@ class WeekContainer extends React.Component {
 
   componentDidMount = () => {
     const weatherURL =
-    `http://api.openweathermap.org/data/2.5/forecast?zip=94108&units=imperial&APPID=${apiConfig.owmKey}`
+    `http://api.openweathermap.org/data/2.5/forecast?zip=94108&units=imperial&APPID=${'32e9b5f03f3da4512a7566f42bf0b37a'}`
 
     fetch(weatherURL)
     .then(res => res.json())
