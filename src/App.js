@@ -1,8 +1,10 @@
-import React, { Component } from 'react';
-import './App.css';
-import WeekContainer from './WeekContainer';
+import React, { Component, useState } from "react";
+import "./App.css";
+import WeekContainer from "./components/WeekContainer";
 
+var moment = require("moment");
 
+const svg = "";
 
 class App extends Component {
   render() {
