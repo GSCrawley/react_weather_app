@@ -1,8 +1,8 @@
 import React from "react";
-
+// import from "./css";
 import AppLayout from "./AppLayout";
+
 var moment = require("moment");
-//import "../css";
 
 export default function TodaysWeather(props) {
   const { city, currentWeather } = props;

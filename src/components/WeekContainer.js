@@ -9,7 +9,7 @@ import TodaysWeather from "./TodaysWeather";
 import { Paper } from "@material-ui/core";
 import leftArrow from "../icons/left-arrow.svg";
 import rightArrow from "../icons/right-arrow.svg";
-import { css, jsx } from "/src/components/css";
+import { css, jsx } from "@emotion/core";
 import styled from "styled-components";
 var moment = require("moment");
 
