@@ -246,9 +246,7 @@ class WeekContainer extends React.Component {
               style={{ marginTop: "5%", backgroundColor: "transparent" }}
             >
               <h1>Weather Application</h1>
-              <h5>
-                <Link to="/"> Home</Link> | <Link to="/about">About</Link>
-              </h5>
+             
             </Paper>
             <div className="controls">
               <Route
