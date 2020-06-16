@@ -41,12 +41,14 @@ class WeekContainer extends React.Component {
       const forecastURL =
         "https://api.openweathermap.org/data/2.5/forecast?q=" +
         City +
-        "&APPID=d124b828368ff3eca3719319814r38";
+        "&APPID=32e9b5f03f3da4512a7566f42bf0b37a"
+        ;
 
       const weatherURL =
         "https://api.openweathermap.org/data/2.5/weather?q=" +
         City +
-        "&APPID=d124b828368ff3eca3719319814r38";
+        "&APPID=32e9b5f03f3da4512a7566f42bf0b37a"
+        ;
 
       fetch(forecastURL)
         .then((res) => res.json())
@@ -176,7 +178,7 @@ class WeekContainer extends React.Component {
       const forecast =
         "https://api.openweathermap.org/data/2.5/forecast?q=" +
         this.state.fields.city +
-        "&APPID=d124b828368ff3eca37193198120f888";
+        "&APPID=32e9b5f03f3da4512a7566f42bf0b37a";
 
       fetch(forecast)
         .then((res) => res.json())
@@ -209,7 +211,7 @@ class WeekContainer extends React.Component {
       const forecast =
         "https://api.openweathermap.org/data/2.5/forecast?q=" +
         this.state.fields.city +
-        "&APPID=d124b828368ff3eca37193198120f888";
+        "&APPID=32e9b5f03f3da4512a7566f42bf0b37a";
 
       fetch(forecast)
         .then((res) => res.json())
