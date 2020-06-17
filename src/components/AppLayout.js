@@ -88,7 +88,7 @@ const WeatherCard = (props) => {
           className="big-temp"
           color="textPrimary"
           component="h2"
-          style={{ fontFamily: "Montserrat", paddingTop: "15px" }}
+          style={{ fontweight:"bold", paddingTop: "15px" }}
         >
           {Math.round(32 + ((currentWeather.temp - 273) * 9) / 5)}&deg;F
         </Typography>
